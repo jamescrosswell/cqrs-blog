@@ -90,7 +90,7 @@ The apply methods **never contain logic** and **never raise exceptions**. So no 
 
 ## Apply methods are always private ##
 
-The only members that should need to access the apply methods are the public "Action" methods (which get called by command handlers) and a `LoadFromHistory` method, which I'd describe in the next section on [event sourcing](./event-sourcing).
+The only members that should need to access the apply methods are the public "Action" methods (which get called by command handlers) and a `LoadFromHistory` method, which I'd describe in the next section on [event sourcing](./event-sourcing.md).
 
 ## public methods take commands and generate events
 

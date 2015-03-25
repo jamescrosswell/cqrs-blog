@@ -24,9 +24,9 @@ public class InventoryService {
 
 To get to a CQRS model we'll introduce the following topics in order:
 
-1. [Commands](./commands)
-2. [Command Handlers](./command-handlers)
-3. [Events](./events)
-4. [Event Store](./event-store)
-5. [Aggregates](./aggregates)
-6. [Event Sourcing](./event-sourcing)
+1. [Commands](./commands.md)
+2. [Command Handlers](./command-handlers.md)
+3. [Events](./events.md)
+4. [Event Store](./event-store.md)
+5. [Aggregates](./aggregates.md)
+6. [Event Sourcing](./event-sourcing.md)
